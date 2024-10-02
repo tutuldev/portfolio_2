@@ -18,3 +18,21 @@ $('.owl-carousel').owlCarousel({
 
 // owl carosul end
 
+// display size debugger
+
+//<div id="dimensions" class=" "></div> 
+function updateDimensions() {
+    const width = window.innerWidth;
+    const height = window.innerHeight;
+    const dimensionsDiv = document.getElementById('dimensions');
+    dimensionsDiv.textContent = `Width: ${width}px, Height: ${height}px`;
+}
+
+// Update on initial load
+updateDimensions();
+
+// Update on window resize
+window.addEventListener('resize', updateDimensions);
+
+
+// display size debugger end
