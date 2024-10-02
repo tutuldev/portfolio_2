@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* header  */
+/* header{
+    background-image: url(../img/port_2/imgs/header.jpg);
+    background-position: center ; 
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+
+/* <div class="bg-[url('path/to/your/image.jpg')] bg-cover bg-center  bg-no-repeat h-64">
+    <!-- Your content here -->
+</div> */
